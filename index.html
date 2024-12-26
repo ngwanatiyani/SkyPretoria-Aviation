@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Pretoria</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <i class="fas fa-plane"></i> SKY PRETORIA
+            </a>
+            <a href="destinations.html">Destinations</a>
+            <a href="#booking">Book a Flight</a>
+            <a href="#fleet">Our Fleet</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Elevate Your Aviation Experience</h2>
+        <p>Your journey to the skies begins here. Whether you're looking for flight training, aerial tours, or private
+            charter, we have you covered.</p>
+        <button onclick="window.location.href='#booking'">Start Your Adventure</button>
+    </section>
+
+    <section class="gallery">
+        <h2>Explore the Skies with Premium +</h2>
+        <img src="images/7.jpg" alt="Airplane">
+        <img src="images/l2.jpg" alt="Airport">
+        <img src="images/4.jpg" alt="Pilot">
+        <h5>Our Safari fleet</h5>
+        <style>
+            h5 {
+                font-size: 2em;
+                font-weight: bold;
+                background: linear-gradient(90deg, #FFD700, #FF4500, #FF6347);
+                /* Modern gradient */
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-fill-color: transparent;
+                margin-bottom: 20px;
+                /* Space between heading and images */
+            }
+        </style>
+    </section>
+
+    <section id="fleet" class="services">
+
+        <div class="service-card">
+            <img src="images/210.jpg" alt="Cessna 210" style="width: 100%; border-radius: 10px;">
+            <h3>Cessna 210 centurion (4 Passengers) </h3>
+        </div>
+        <div class="service-card">
+            <img src="images/ce1.jpg" alt="Cessna 172" style="width: 100%; border-radius: 10px;">
+            <h3>Cessna 172 Skyhawk (4 Passengers) </h3>
+        </div>
+        <div class="service-card">
+            <img src="images/404.jpg" alt="Cessna 404" style="width: 100%; border-radius: 10px;">
+            <h3>Cessna 404 (8 Passengers) </h3>
+            <p>Reliable for regional travel.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/h1.jpg" alt="Bell 407" style="width: 100%; border-radius: 10px;">
+            <h3>Bell 407 (6 passengers) </h3>
+            <p>Perfect for scenic tours and private charters.</p>
+        </div>
+    </section>
+
+    <section id="booking" class="booking">
+        <h2>Book a Flight Across South Africa</h2>
+        <p>Plan your journey today and take to the skies with ease.</p>
+        <button onclick="alert('Booking functionality coming soon!')">Book Now</button>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <img src="images/john.jpg" alt="John D." class="profile-icon">
+                <div>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p>- John D</p>
+                    <p>"Sky Pretoria made my first Safari trip to Tswalu Kalahari Reserve a unforgettable experience.
+                        The pilots and tour guide are amazing!"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <img src="images/sarah.jpg" alt="Sarah W." class="profile-icon">
+                <div>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p>- Sarah W</p>
+                    <p>"The aerial tour over Pretoria was breathtaking. Highly recommend it!"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <img src="images/alex.jpg" alt="Alex K." class="profile-icon">
+                <div>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p>- Alex K.</p>
+                    <p>"Professional private charter service.They made me and my family a memorable flight to Namibia, I
+                        highly recommend. Couldn't be happier."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Get in touch with us today!<br>
+            Email: ngwanatiyanitn@gmail.com | Phone: +27 64 632 0874</p>
+        <style>
+            p {
+                text-align: center;
+                color: white;
+            }
+        </style>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tiyani Ngwana. All Rights Reserved.</p>
+        <div class="footer-icons">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" title="HTML">
+                <img src="https://skillicons.dev/icons?i=html" alt="HTML Icon">
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="CSS">
+                <img src="https://skillicons.dev/icons?i=css" alt="CSS Icon">
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript">
+                <img src="https://skillicons.dev/icons?i=js" alt="JavaScript Icon">
+            </a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
