@@ -1,11 +1,11 @@
 # Sky Pretoria
 
-Welcome to the **Sky Pretoria** project! This web application is designed to elevate your aviation experience, offering flight training, aerial tours, and private charters across South Africa.
+Welcome to the **Sky Pretoria** prototype project! This web application is designed to elevate your aviation experience, offering flight training, aerial tours, and private charters across South Africa.
 
 ## Features
 
 - **Destinations**: Explore various flight destinations.
-- **Booking**: Plan your journey and book flights easily( feel free to add).
+- **Booking**: Plan your journey and book flights easily.
 - **Fleet**: Discover our range of aircraft.
 - **Testimonials**: Read client experiences and feedback.
 - **Contact**: Get in touch for inquiries.
